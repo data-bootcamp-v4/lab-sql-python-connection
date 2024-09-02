@@ -1,0 +1,2 @@
+[my_db]
+connection_string = mysql+pymysql://root:mysqlpassword@localhost/sakila
