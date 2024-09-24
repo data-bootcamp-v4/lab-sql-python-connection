@@ -2,6 +2,7 @@
 
 # LAB | Connecting Python to SQL
 
+
 <details>
   <summary>
    <h2>Learning Goals</h2>
