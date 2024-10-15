@@ -51,42 +51,6 @@ In this lab, the objective is to identify the customers who were active in both 
 
 	- `engine`: an object representing the database connection engine to be used to establish a connection to the Sakila database.
 	- `month`: an integer representing the month for which rental data is to be retrieved.
-	- `year`: an integer representing the year for which rental data is to be retrieved.
-
-	The function should execute a SQL query to retrieve the rental data for the specified month and year from the rental table in the Sakila database, and return it as a pandas DataFrame.
-
-3. Develop a Python function called `rental_count_month` that takes the DataFrame provided by `rentals_month` as input along with the month and year and returns a new DataFrame containing the number of rentals made by each customer_id during the selected month and year. 
-
-	The function should also include the month and year as parameters and use them to name the new column according to the month and year, for example, if the input month is 05 and the year is 2005, the column name should be "rentals_05_2005".
-
-
-	*Hint: Consider making use of pandas [groupby()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)*
-
-4. Create a Python function called `compare_rentals` that takes two DataFrames as input containing the number of rentals made by each customer in different months and years. 
-The function should return a combined DataFrame with a new 'difference' column, which is the difference between the number of rentals in the two months.
-
-## Requirements
-
-- Fork this repo
-- Clone it to your machine
-
-
-
-## Getting Started
-
-Complete the challenges. Follow the instructions and add your code and explanations as necessary.
-
-## Submission
-
-- Upon completion, run the following commands:
-
-```bash
-git add .
-git commit -m "Solved lab"
-git push origin master
-```
-
-- Paste the link of your lab in Student Portal.
-
+ 
 
 
