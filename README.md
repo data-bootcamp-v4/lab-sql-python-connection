@@ -55,9 +55,9 @@ In this lab, the objective is to identify the customers who were active in both 
 
 	The function should execute a SQL query to retrieve the rental data for the specified month and year from the rental table in the Sakila database, and return it as a pandas DataFrame.
 
-3. Develop a Python function called `rental_count_month` that takes the DataFrame provided by `rentals_month` as input along with the month and year and returns a new DataFrame containing the number of rentals made by each customer_id during the selected month and year. 
+  3. Develop a Python function called `rental_count_month` that takes the DataFrame provided by `rentals_month` as input along with the month and year and returns a new DataFrame containing the number of rentals made by each customer_id during the selected month and year. 
 
-	The function should also include the month and year as parameters and use them to name the new column according to the month and year, for example, if the input month is 05 and the year is 2005, the column name should be "rentals_05_2005".
+    The function should also include the month and year as parameters and use them to name the new column according to the month and year, for example, if the input month is 05 and the year is 2005, the column name should be "rentals_05_2005".
 
 
 	*Hint: Consider making use of pandas [groupby()](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.groupby.html)*
